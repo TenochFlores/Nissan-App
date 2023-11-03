@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PDM_T3</string>
+    <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="close_nav">Cerrar Navigation Drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autos_title">Autos Disponibles</string>
+    <string name="versa_precio">$334,900</string>
+    <string name="versa_titulo">NISSAN VERSA</string>
+    <string name="sentra_titulo">NISSAN SENTRA</string>
+    <string name="sentra_precio">$385,900</string>
+    <string name="texto_boton_carro">Comprar</string>
+    <string name="altima_precio">$737,900</string>
+    <string name="altima_titulo">NISSAN ALTIMA</string>
+    <string name="z_titulo">NISSAN Z</string>
+    <string name="z_precio">$1,355,900</string>
+    <string name="gtr_precio">$3,900,000</string>
+    <string name="gtr_titulo">NISSAN GTR</string>
+    <string name="especificaciones_title">Especificaciones</string>
+    <string name="nombre_gama_baja">Advance</string>
+    <string name="nombre_gama_media">SR Turbo</string>
+    <string name="nombre_gama_alta">Exclusive Turbo</string>
+    <string name="radio_group_titulo">Versiones (Gama)</string>
+    <string name="check_box_titulo">Servicios Adicionales</string>
+    <string name="seguro">"Seguro Fully Protected "</string>
+    <string name="financiamiento">Plan de Financiamiento</string>
+    <string name="arrendamiento">Arrendamiento Nissan</string>
+    <string name="taller">Taller Cliente Preferencial</string>
+    <string name="programa_de_fidelidad">Programa de Fidelidad</string>
+</resources>
