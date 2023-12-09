@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <Button
+        android:id="@+id/registro_boton"
+        android:layout_width="232dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/boton_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_editTextPassword" />
+
+    <TextView
+        android:id="@+id/registro_etiqueta_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/etiqueta_registro"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/registro_etiqueta_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/etiqueta_nombre"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_etiqueta_login" />
+
+    <TextView
+        android:id="@+id/registro_etiqueta_nombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/etiqueta_rfc"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_editTextNombre" />
+
+    <EditText
+        android:id="@+id/registro_editTextCorreo"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/espacio"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_etiqueta_correo" />
+
+    <TextView
+        android:id="@+id/registro_textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/etiqueta_password"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_editTextCorreo" />
+
+    <TextView
+        android:id="@+id/registro_etiqueta_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/etiqueta_correo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_editTextRFC" />
+
+    <EditText
+        android:id="@+id/registro_editTextPassword"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/espacio"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_textViewPassword" />
+
+    <EditText
+        android:id="@+id/registro_editTextNombre"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/espacio"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_etiqueta_nombre" />
+
+    <EditText
+        android:id="@+id/registro_editTextRFC"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/espacio"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_etiqueta_nombre2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

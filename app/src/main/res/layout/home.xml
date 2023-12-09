@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <TextView
+        android:id="@+id/home_etiqueta_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="140dp"
+        android:text="Email:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_rfc"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/home_etiqueta_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/etiqueta_password"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_correo"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/home_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/etiqueta_password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_correo"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/home_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/etiqueta_password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_etiqueta_correo"
+        app:layout_constraintTop_toTopOf="@+id/home_etiqueta_correo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/home_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/etiqueta_password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_etiqueta_nombre"
+        app:layout_constraintTop_toTopOf="@+id/home_etiqueta_nombre"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/home_rfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/etiqueta_password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_etiqueta_rfc"
+        app:layout_constraintTop_toTopOf="@+id/home_etiqueta_rfc"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/home_etiqueta_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="260dp"
+        android:text="@string/etiqueta_nombre"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/home_etiqueta_rfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="196dp"
+        android:text="@string/etiqueta_rfc"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_nombre"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <TextView
+        android:id="@+id/home_etiqueta_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="324dp"
+        android:text="Datos personales"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/registro_etiqueta_login2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Bienvenido"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagen_buen_fin"
+        android:layout_width="419dp"
+        android:layout_height="594dp"
+        android:layout_marginBottom="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buen_fin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

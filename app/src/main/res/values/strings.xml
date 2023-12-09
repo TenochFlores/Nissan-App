@@ -27,4 +27,20 @@
     <string name="arrendamiento">Arrendamiento Nissan</string>
     <string name="taller">Taller Cliente Preferencial</string>
     <string name="programa_de_fidelidad">Programa de Fidelidad</string>
+    <string name="etiqueta_correo">Correo electrónico:</string>
+    <string name="etiqueta_password">Contraseña:</string>
+    <string name="etiqueta_olvido_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="boton_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="text_aun_no_te_registras">"¿Aún no te registras? "</string>
+    <string name="etiqueta_sign_up">Crea tu registro</string>
+    <string name="espacio">" "</string>
+    <string name="etiqueta_registro">Registrate</string>
+    <string name="etiqueta_nombre">Nombre:</string>
+    <string name="etiqueta_rfc">RFC:</string>
+    <string name="boton_registro">Registrar</string>
+    <string name="etiqueta_titulo_about">Acerca de Nissan</string>
+    <string name="texto_nissan_history1">Nissan, una empresa japonesa de automóviles, se originó en 1911 como Kaishinsha Motor Car Works y evolucionó hacia Nissan Motor Co., Ltd. en 1933.</string>
+    <string name="texto_nissan_history2">A lo largo de los años, Nissan ha destacado por la introducción de modelos exitosos, como el Nissan Z y el Nissan Leaf, un vehículo eléctrico líder.</string>
+    <string name="texto_nissan_history3">Aunque ha sido parte de la Alianza Renault-Nissan-Mitsubishi, la empresa ha enfrentado desafíos financieros y tensiones internas, incluido el arresto de su expresidente Carlos Ghosn en 2018.</string>
+    <string name="texto_nissan_history4">A pesar de estos desafíos, Nissan sigue siendo un actor importante en la industria automotriz global.</string>
 </resources>

@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/boton_versa"
         android:layout_width="99dp"
         android:layout_height="41dp"
         android:layout_marginStart="52dp"
@@ -141,20 +141,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/boton_altima"
         android:layout_width="99dp"
         android:layout_height="41dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
         android:text="@string/texto_boton_carro"
         android:textSize="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/boton_nissan_z"
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/boton_nissan_z"
         android:layout_width="99dp"
         android:layout_height="41dp"
         android:layout_marginTop="12dp"
@@ -165,7 +165,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/boton_sentra"
         android:layout_width="99dp"
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
@@ -174,7 +174,7 @@
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/boton_versa"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
@@ -184,7 +184,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/boton_versa"
         app:srcCompat="@drawable/nissan_altima" />
 
     <ImageView
@@ -193,7 +193,7 @@
         android:layout_height="128dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/boton_sentra"
         app:srcCompat="@drawable/nissan_z" />
 
     <ImageView
@@ -203,11 +203,11 @@
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/boton_altima"
         app:srcCompat="@drawable/nissan_gtr" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/boton_gtr"
         android:layout_width="99dp"
         android:layout_height="41dp"
         android:layout_marginTop="4dp"
