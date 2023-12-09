@@ -78,25 +78,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registro_textViewPassword" />
 
-    <TextView
-        android:id="@+id/text_olvido_contrasena"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/etiqueta_olvido_contrasena"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registro_editTextPassword" />
-
     <Button
         android:id="@+id/boton_iniciar_sesion"
         android:layout_width="232dp"
         android:layout_height="57dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:text="@string/boton_iniciar_sesion"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_olvido_contrasena" />
+        app:layout_constraintTop_toBottomOf="@+id/registro_editTextPassword" />
 
     <TextView
         android:id="@+id/no_registrado"

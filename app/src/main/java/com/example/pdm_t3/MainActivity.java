@@ -17,7 +17,7 @@ import OpenHelper.SQLite_OpenHelper;
 
 public class MainActivity extends AppCompatActivity {
 
-    SQLite_OpenHelper helper = new SQLite_OpenHelper(this,"BDUsuarios",null,1);
+    SQLite_OpenHelper helper = new SQLite_OpenHelper(this,"BDUsuarios",null,4);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,10 +58,12 @@ public class MainActivity extends AppCompatActivity {
                         respuesta.close();
 
                         Bundle bundle = new Bundle();
+                        bundle.putInt("id", id);
                         bundle.putString("nombre", nombre);
                         bundle.putString("rfc", rfc);
                         bundle.putString("correo", email);
                         bundle.putString("password", pas);
+
 
                         Intent intentLogin = new Intent(this, Principal.class);
                         intentLogin.putExtra("values",bundle);

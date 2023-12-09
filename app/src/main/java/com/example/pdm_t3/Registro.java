@@ -17,7 +17,7 @@ public class Registro extends AppCompatActivity {
     Button btnGrabarUsu;
     EditText txtNomUsu, txtRfcUsu, txtCorUsu, txtPasUsu;
 
-    SQLite_OpenHelper helper = new SQLite_OpenHelper(this, "BDUsuarios", null, 1);
+    SQLite_OpenHelper helper = new SQLite_OpenHelper(this, "BDUsuarios", null, 4);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

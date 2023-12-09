@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".BuyFragment">
 
+    <TextView
+        android:id="@+id/registro_etiqueta_login3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Compras en espera"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/home_etiqueta_correo"
@@ -13,12 +26,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="140dp"
-        android:text="Email:"
+        android:text="ALTIMA:"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_rfc"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.489" />
 
     <TextView
         android:id="@+id/home_etiqueta_password"
@@ -26,29 +39,51 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="78dp"
-        android:text="@string/etiqueta_password"
+        android:text="NISSAN Z:"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_correo"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.418" />
 
     <TextView
-        android:id="@+id/home_password"
+        android:id="@+id/home_etiqueta_password3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="NISSAN GTR:"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_password" />
+
+    <TextView
+        android:id="@+id/buy_nissan_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="78dp"
         android:text="@string/etiqueta_password"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_correo"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toEndOf="@+id/home_etiqueta_password"
+        app:layout_constraintTop_toTopOf="@+id/home_etiqueta_password"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/home_correo"
+        android:id="@+id/buy_nissan_gtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/etiqueta_password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/home_etiqueta_password3"
+        app:layout_constraintTop_toTopOf="@+id/home_etiqueta_password3" />
+
+    <TextView
+        android:id="@+id/buy_altima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -62,7 +97,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/home_nombre"
+        android:id="@+id/buy_versa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -76,7 +111,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/home_rfc"
+        android:id="@+id/buy_sentra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -94,12 +129,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
         android:layout_marginBottom="260dp"
-        android:text="@string/etiqueta_nombre"
+        android:text="VERSA:"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_datos" />
 
     <TextView
         android:id="@+id/home_etiqueta_rfc"
@@ -107,48 +142,34 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="196dp"
-        android:text="@string/etiqueta_rfc"
+        android:text="SENTRA:"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_etiqueta_nombre"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.479" />
 
     <TextView
         android:id="@+id/home_etiqueta_datos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginBottom="324dp"
-        android:text="Datos personales"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="332dp"
+        android:text="Cantidad por modelo:"
         android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/registro_etiqueta_login2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Bienvenido"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
-        android:id="@+id/imagen_buen_fin"
-        android:layout_width="419dp"
-        android:layout_height="594dp"
-        android:layout_marginBottom="204dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView5"
+        android:layout_width="331dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/buen_fin" />
+        app:layout_constraintTop_toBottomOf="@+id/registro_etiqueta_login3"
+        app:srcCompat="@drawable/nissan_modelos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
